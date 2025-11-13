@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "public/index.php",
+            "use": "@vercel/php"
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/public/index.php"
+        }
+    ]
+}
